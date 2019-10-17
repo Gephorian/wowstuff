@@ -1,0 +1,106 @@
+{
+    ["currentTutorial"] = 3,
+    ["general"] = {
+        ["minimap"] = {
+            ["size"] = 215,
+        },
+    },
+    ["movers"] = {
+        ["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,126,757",
+        ["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,497",
+        ["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,901,57",
+        ["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,23",
+        ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,58",
+        ["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,137",
+        ["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-272,-4",
+        ["TimeManagerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-56",
+        ["QuestTimerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-122,-377",
+        ["ElvAB_4"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,258",
+        ["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,236,212",
+        ["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,98",
+        ["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-599,366",
+        ["QuestWatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-151,-450",
+        ["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-331,135",
+        ["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-435,4",
+        ["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+        ["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-4",
+        ["ElvNP_PlayerMover"] = "TOP,ElvUIParent,TOP,0,-452",
+        ["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,497",
+        ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4",
+        ["ElvUF_TargetTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-636,272",
+        ["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-80,186",
+        ["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,757",
+        ["DurabilityFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,323,79",
+        ["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-235,212",
+        ["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-40,258",
+        ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,260",
+        ["AlertFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,338",
+        ["ElvUIBankMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-580,4",
+        ["TaxiButtonMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,216",
+    },
+    ["bags"] = {
+        ["bagWidth"] = 258,
+        ["split"] = {
+            ["player"] = true,
+            ["bag4"] = true,
+            ["bag3"] = true,
+            ["bank"] = true,
+        },
+        ["bankSize"] = 38,
+        ["bagSize"] = 38,
+        ["sortInverted"] = false,
+    },
+    ["chat"] = {
+        ["panelColorConverted"] = true,
+    },
+    ["unitframe"] = {
+        ["units"] = {
+            ["player"] = {
+                ["debuffs"] = {
+                    ["desaturate"] = false,
+                    ["perrow"] = 12,
+                    ["clickThrough"] = true,
+                },
+                ["buffs"] = {
+                    ["enable"] = true,
+                    ["desaturate"] = false,
+                    ["perrow"] = 12,
+                },
+            },
+        },
+    },
+    ["actionbar"] = {
+        ["bar3"] = {
+            ["buttonsize"] = 35,
+            ["buttons"] = 12,
+            ["buttonsPerRow"] = 12,
+            ["backdrop"] = true,
+            ["buttonspacing"] = 3,
+        },
+        ["bar2"] = {
+            ["enabled"] = true,
+            ["buttonspacing"] = 4,
+            ["buttonsize"] = 34,
+            ["backdrop"] = true,
+        },
+        ["bar1"] = {
+            ["buttonsize"] = 35,
+            ["backdrop"] = true,
+            ["buttonspacing"] = 3,
+        },
+        ["bar5"] = {
+            ["point"] = "TOPRIGHT",
+            ["buttons"] = 12,
+            ["buttonsPerRow"] = 1,
+            ["backdrop"] = true,
+        },
+        ["barPet"] = {
+            ["buttonsPerRow"] = 10,
+        },
+    },
+    ["v11NamePlateReset"] = true,
+    ["tooltip"] = {
+        ["cursorAnchorType"] = "ANCHOR_CURSOR_RIGHT",
+        ["cursorAnchor"] = true,
+    },
+}::profile::Gephorian - Benediction
