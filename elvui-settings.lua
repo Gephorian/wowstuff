@@ -1,15 +1,15 @@
 {
-    ["currentTutorial"] = 3,
+    ["currentTutorial"] = 4,
     ["general"] = {
         ["bordercolor"] = {
-            ["b"] = 0,
-            ["g"] = 0,
             ["r"] = 0,
+            ["g"] = 0,
+            ["b"] = 0,
         },
         ["backdropfadecolor"] = {
-            ["b"] = 0.054,
-            ["g"] = 0.054,
             ["r"] = 0.054,
+            ["g"] = 0.054,
+            ["b"] = 0.054,
         },
         ["minimap"] = {
             ["size"] = 215,
@@ -25,7 +25,7 @@
         ["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-272,-4",
         ["TimeManagerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-56",
         ["QuestTimerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-122,-377",
-        ["ElvUIBankMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-512,4",
+        ["ElvUIBankMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-536,169",
         ["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-452,4",
         ["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,98",
         ["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-40,258",
@@ -36,7 +36,7 @@
         ["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-4",
         ["ElvNP_PlayerMover"] = "TOP,ElvUIParent,TOP,0,-485",
         ["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,497",
-        ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4",
+        ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-106,4",
         ["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,258",
         ["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-80,186",
         ["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,757",
@@ -45,14 +45,14 @@
         ["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,236,212",
         ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,260",
         ["AlertFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,338",
-        ["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-599,366",
+        ["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-483,270",
         ["TaxiButtonMover"] = "BOTTOM,ElvUIParent,BOTTOM,-268,66",
     },
     ["bags"] = {
         ["bagWidth"] = 258,
         ["split"] = {
-            ["bag4"] = true,
             ["player"] = true,
+            ["bag4"] = true,
             ["bag3"] = true,
             ["bank"] = true,
         },
@@ -60,26 +60,27 @@
         ["bagSize"] = 38,
         ["sortInverted"] = false,
     },
+    ["hideTutorial"] = true,
     ["chat"] = {
         ["panelHeight"] = 240,
         ["panelColorConverted"] = true,
     },
     ["unitframe"] = {
         ["colors"] = {
-            ["auraBarBuff"] = {
-                ["b"] = 0.1,
-                ["g"] = 0.1,
-                ["r"] = 0.1,
-            },
             ["castColor"] = {
-                ["b"] = 0.1,
-                ["g"] = 0.1,
                 ["r"] = 0.1,
+                ["g"] = 0.1,
+                ["b"] = 0.1,
+            },
+            ["auraBarBuff"] = {
+                ["r"] = 0.1,
+                ["g"] = 0.1,
+                ["b"] = 0.1,
             },
             ["health"] = {
-                ["b"] = 0.1,
-                ["g"] = 0.1,
                 ["r"] = 0.1,
+                ["g"] = 0.1,
+                ["b"] = 0.1,
             },
         },
         ["units"] = {
