@@ -18,7 +18,7 @@
     ["movers"] = {
         ["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,126,757",
         ["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,497",
-        ["ElvAB_4"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,258",
+        ["ElvAB_4"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-40,255",
         ["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,23",
         ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,58",
         ["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,137",
@@ -28,7 +28,7 @@
         ["ElvUIBankMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-536,169",
         ["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-452,4",
         ["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,98",
-        ["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-40,258",
+        ["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,255",
         ["QuestWatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-151,-450",
         ["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-331,135",
         ["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
